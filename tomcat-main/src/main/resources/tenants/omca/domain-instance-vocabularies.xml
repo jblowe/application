@@ -700,4 +700,44 @@
             <option id="sound">Sound</option>
         </options>
     </instance>
+    <instance id="vocab-omcaexhibitiontype">
+        <web-url>omcaexhibitiontype</web-url>
+        <title-ref>omcaexhibitiontype</title-ref>
+        <title>OMCA exhibition type</title>
+        <options>
+            <option id="permanent">Permanent</option>
+            <option id="temporary">Temporary</option>
+            <option id="traveling">Traveling</option>
+            <option id="rotation">Rotation</option>
+        </options>
+    </instance>
+    <instance id="vocab-exhibitionobjectconstreatment">
+        <web-url>exhibitionobjectconstreatment</web-url>
+        <title-ref>exhibitionobjectconstreatment</title-ref>
+        <title>Exhibition Object Conservation Treatment</title>
+        <options>
+            <option id="needed">Needed</option>
+            <option id="not_needed">Not needed</option>
+            <option id="done">Done</option>
+        </options>
+    </instance>
+    <instance id="vocab-exhibitiondisplayasgraphic">
+        <web-url>exhibitiondisplayasgraphic</web-url>
+        <title-ref>exhibitiondisplayasgraphic</title-ref>
+        <title>Exhibition Display As Graphic</title>
+        <options>
+            <option id="graphic_only">graphic only</option>
+            <option id="both">Both</option>
+        </options>
+    </instance>
+    <instance id="vocab-exhibitionobjectmount">
+        <web-url>exhibitionobjectmount</web-url>
+        <title-ref>exhibitionobjectmount</title-ref>
+        <title>Exhibition Object Mount</title>
+        <options>
+            <option id="needed">Needed</option>
+            <option id="not_needed">Not needed</option>
+            <option id="done">Done</option>
+        </options>
+    </instance>
 </instances>

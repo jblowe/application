@@ -1,0 +1,46 @@
+<record id="exhibition" is-extension="true">
+    <services-record-path id="omca">exhibitions_omca:http://collectionspace.org/services/exhibition/local/omca,exhibitions_omca</services-record-path>
+
+    <section id="exhibitionInformation">
+        <field id="type" ui-search="repeatable" autocomplete="vocab-omcaexhibitiontype" ui-type="enum">
+            <!-- adding vocab-omcaexhibitiontype vocab -->
+        </field>
+        
+        <section id="exhibitionPlanningInformation">
+            <repeat id="exhibitionSectionOMCAGroupList/exhibitionSectionOMCAGroup" section="omca">
+                <!-- adding extension of exhibitionSectionGroup with additional subsection field -->
+                <field id="exhibitionSectionNameOMCA" section="omca"/>
+                <field id="exhibitionSubsectionNameOMCA" section="omca"/>
+                <field id="exhibitionSectionLocationOMCA" section="omca"/>
+                <field id="exhibitionSectionObjectsOMCA" section="omca"/>
+                <field id="exhibitionSectionNoteOMCA" section="omca"/>
+            </repeat>
+        </section>
+    
+        <section id="exhibitionObjectInformation">
+            <repeat id="exhibitionObjectOMCAGroupList/exhibitionObjectOMCAGroup" section="omca">
+                <!-- adding extension of exhibitionObjectGroup with additional fields -->
+                <field id="exhibitionObjectNumberOMCA" section="omca"/>
+                <field id="exhibitionObjectNameOMCA" section="omca"/>
+                <field id="exhibitionObjectConsCheckDateOMCA" ui-type="date" datatype="date" section="omca"/>
+                <field id="exhibitionObjectConsTreatmentOMCA" autocomplete="vocab-exhibitionobjectconstreatment" ui-type="enum" section="omca">
+                    <!-- adding vocab-exhibitionobjectconstreatment vocab -->
+                    <options action='delete'/>
+                </field>
+                <field id="exhibitionDisplayAsGraphicOMCA" autocomplete="vocab-exhibitiondisplayasgraphic" ui-type="enum" section="omca">
+                    <!-- adding vocab-exhibitiondisplayasgraphic vocab -->
+                </field>
+                <field id="exhibitionObjectMountOMCA" autocomplete="vocab-exhibitionobjectmount" ui-type="enum" section="omca">
+                    <!-- adding vocab-exhibitionobjectmount vocab -->
+                    <options action='delete'/>
+                </field>
+                <field id="exhibitionObjectSectionOMCA" section="omca"/>
+                <field id="exhibitionObjectCaseOMCA" section="omca"/>
+                <field id="exhibitionObjectSeqNumOMCA" section="omca"/>
+                <field id="exhibitionObjectRotationOMCA" section="omca"/>
+                <field id="exhibitionObjectNoteOMCA" section="omca"/>
+                <field id="exhibitionCrateExistsOMCA" datatype="boolean" section="omca"/>
+            </repeat>
+        </section>
+     </section>
+</record>
