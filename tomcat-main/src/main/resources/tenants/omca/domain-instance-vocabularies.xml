@@ -469,6 +469,48 @@
             <option id="public_domain">Public Domain</option>
         </options>
     </instance>
+    <instance id="vocab-sex">
+        <web-url>sex</web-url>
+        <title-ref>sex</title-ref>
+        <title>Sex</title>
+        <options>
+            <option id="male">male</option>
+            <option id="female">female</option>
+        </options>
+    </instance>
+    <instance id="vocab-objectcomponentname">
+        <web-url>objectcomponentname</web-url>
+        <title-ref>objectcomponentname</title-ref>
+        <title>Object Component Name</title>
+        <options>
+            <option id="a">a.</option>
+            <option id="b">b.</option>
+            <option id="c">c.</option>
+            <option id="d">d.</option>
+            <option id="e">e.</option>
+            <option id="f">f.</option>
+            <option id="g">g.</option>
+            <option id="h">h.</option>
+            <option id="i">i.</option>
+            <option id="j">j.</option>
+            <option id="k">k.</option>
+            <option id="l">l.</option>
+            <option id="m">m.</option>
+            <option id="n">n.</option>
+            <option id="o">o.</option>
+            <option id="p">p.</option>
+            <option id="q">q.</option>
+            <option id="r">r.</option>
+            <option id="s">s.</option>
+            <option id="t">t.</option>
+            <option id="u">u.</option>
+            <option id="v">v.</option>
+            <option id="w">w.</option>
+            <option id="x">x.</option>
+            <option id="y">y.</option>
+            <option id="z">z.</option>
+        </options>
+    </instance>
     <instance id="vocab-accessrestrictiontype">
         <web-url>accessrestrictiontype</web-url>
         <title-ref>accessrestrictiontype</title-ref>
@@ -483,6 +525,26 @@
             <option id="storageRestriction">storage</option>
             <option id="treatmentRestriction">treatment</option>
             <option id="unknown">unknown</option>
+        </options>
+    </instance>
+    <instance id="vocab-measureddimension">
+        <web-url>measureddimension</web-url>
+        <title-ref>measureddimension</title-ref>
+        <title>Dimension - Dimension Measured</title>
+        <options>
+            <option id="area">area</option>
+            <option id="circumference">circumference</option>
+            <option id="count">count</option>
+            <option id="depth">depth</option>
+            <option id="diameter">diameter</option>
+            <option id="film_size">film size</option>
+            <option id="height">height</option>
+            <option id="length">length</option>
+            <option id="running_time">running time</option>
+            <option id="target">target</option>
+            <option id="volume">volume</option>
+            <option id="weight">weight</option>
+            <option id="width">width</option>
         </options>
     </instance>
     <instance id="vocab-measuredpart">
