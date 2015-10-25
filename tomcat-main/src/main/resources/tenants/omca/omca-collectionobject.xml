@@ -114,7 +114,9 @@
         <field id="art" ui-search="single" datatype="boolean" section="omca"></field>
         <field id="history" ui-search="single" datatype="boolean" section="omca"></field>
         <field id="science" ui-search="single" datatype="boolean" section="omca"></field>
-        <field id="publishedOnWeb" datatype="boolean" section="omca"></field>
+        <field id="publishedOnWeb" datatype="boolean" section="omca">
+            <default>true</default>
+        </field>
         <repeat id="photos" section="omca">
             <field id="photo" section="omca"></field>
         </repeat>
@@ -239,6 +241,11 @@
         <field id="accessory" section="omca"></field>
     </section>
     <section id="objectProductionInformation">
+        <repeat id="objectProductionPlaceGroupList/objectProductionPlaceGroup">
+            <field id="objectProductionPlace" autocomplete="place-place" ui-search="repeatable">
+                <!-- adding place authority -->
+            </field>
+        </repeat>
         <repeat id="objectProductionPersonGroupList/objectProductionPersonGroup">
             <field id="objectProductionPerson" ui-search="repeatable" mini="list" autocomplete="person-person">
                 <!-- adding mini=list attribute -->
@@ -270,8 +277,8 @@
         </field>
         <section id="associationInformation">
             <repeat id="assocCulturalContextGroupList/assocCulturalContextGroup">
-                <field id="assocCulturalContext" autocomplete="vocab-culturalaffinity" ui-type="enum">
-                    <!-- adding vocab-culturalaffinity vocab -->
+                <field id="assocCulturalContext" autocomplete="concept-concept">
+                    <!-- adding concept authority -->
                 </field>
             </repeat>
             <repeat id="assocPlaceGroupList/assocPlaceGroup">
