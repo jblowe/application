@@ -73,6 +73,7 @@
             <option id="negative_number">negative number</option>
             <option id="old_accession_number">old accession number</option>
             <option id="maker_number">maker number</option>
+            <option id="lender_number">Lender number</option>
         </options>
     </instance>
     <instance id="vocab-responsibleDepartment">
