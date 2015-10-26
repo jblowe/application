@@ -47,6 +47,9 @@
                 <default>urn:cspace:museumca.org:vocabularies:name(recordStatus):item:name(new)'New'</default>
             </enum>
         </field>
+        <field id="computedCurrentLocation" ui-search="repeatable" autocomplete="location-location" ui-type="" services-readonly="true" authref-in-services="true">
+            <!-- adding to advanced search -->
+        </field>
         <repeat id="titleGroupList/titleGroup">
             <repeat id="titleTranslationSubGroupList/titleTranslationSubGroup">
                 <field id="titleTranslationLanguage" autocomplete="vocab-languages" ui-type="enum">
@@ -106,6 +109,9 @@
                 <!-- adding concept authority -->
             </field>
         </repeat>
+        <field id="computedCurrentLocationDisplay" section="omca" ui-type="computed" ui-args="computedCurrentLocation" ui-func="cspace.util.cloneField" ui-readonly="true">
+            <!-- read-only version of computedCurrentLocation -->
+        </field>
         <field id="argusCount" section="omca"></field>
         <repeat id="categories" section="omca">
             <!-- this field is not used any more. leaving here for the time being -->
