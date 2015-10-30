@@ -190,17 +190,32 @@
         </repeat>
         <section id="contentInformation">
             <repeat id="contentLanguages">
-                <field id="contentLanguage" autocomplete="vocab-languages" ui-type="enum">
-                    <!-- overriding enum values -->
+                <field id="contentLanguage" autocomplete="vocab-languages" ui-type="enum" ui-search="repeatable">
+                    <!-- overriding enum values; making searchable -->
                     <enum>
                         <default/>
                         <blank-value>no value selected</blank-value>
                     </enum>
                 </field>
             </repeat>
+            <repeat id="contentConcepts">
+                <field id="contentConcept" autocomplete="concept-concept,concept-material_ca" ui-search="repeatable">
+                    <!-- making searchable -->
+                </field>
+            </repeat>
+            <repeat id="contentPersons">
+                <field id="contentPerson" autocomplete="person-person,person-ulan_pa" ui-search="repeatable">
+                     <!-- making searchable -->
+                </field>
+            </repeat>
             <repeat id="contentPlaces">
-                <field id="contentPlace" autocomplete="place-place">
-                    <!-- adding place authority -->
+                <field id="contentPlace" autocomplete="place-place" ui-search="repeatable">
+                    <!-- adding place authority; making searchable -->
+                </field>
+            </repeat>
+            <repeat id="contentOrganizations">
+                <field id="contentOrganization" autocomplete="organization-organization,organization-ulan_oa" ui-search="repeatable">
+                     <!-- making searchable -->
                 </field>
             </repeat>
             <field id="argusSubject" section="omca"></field>
@@ -287,15 +302,20 @@
                     <!-- adding concept authority -->
                 </field>
             </repeat>
+            <repeat id="assocPersonGroupList/assocPersonGroup">
+                <field id="assocPerson" autocomplete="person-person" ui-search="repeatable">
+                    <!-- making searchable -->
+                </field>
+            </repeat>
             <repeat id="assocPlaceGroupList/assocPlaceGroup">
-                <field id="assocPlace" autocomplete="place-place">
-                    <!-- adding place authority -->
+                <field id="assocPlace" autocomplete="place-place" ui-search="repeatable">
+                    <!-- adding place authority; making searchable -->
                 </field>
             </repeat>
         </section>
         <field id="argusFoundAndUsed" section="omca"></field>
         <repeat id="exhibitionHistories" section="omca">
-            <field id="exhibitionHistory" section="omca"></field>
+            <field id="exhibitionHistory" section="omca" ui-search="repeatable"></field>
         </repeat>
         <repeat id="previousOwnersGroupList/previousOwnersGroup" section="omca">
             <field id="previousOwner" autocomplete="person-person,organization-organization" section="omca"></field>
