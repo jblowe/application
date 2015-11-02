@@ -1,24 +1,20 @@
 <record id="preferredPA" in-recordlist="no" separate-record="false">
     <section id="termInformation">
         <repeat id="personTermGroupList/personTermGroup">
-            <field id="termType" action="replace">
-                <selector>personAuthority-termType</selector>
-                <!-- normalizing termType options list -->
-                <options>
-                    <option id="">no value selected</option>
-                    <option id="descriptor">Descriptor</option>
-                    <option id="alternate-descriptor">Alternate descriptor</option>
-                    <option id="used-for-term">Used for term</option>
-                </options>
+            <field id="termType" autocomplete="vocab-termtype" ui-type="enum">
+                <!-- adding termtype authority; deleting options list -->
+                <options action="delete" />
             </field>
-            <field id="salutation">
-                <!-- adding default blank value -->
-                <options>
-                    <option id="">no value selected</option>
-                    <option id="dear">Dear</option>
-                    <option id="hello">Hello</option>
-                    <option id="to">To</option>
-                </options>
+            <field id="termStatus" autocomplete="vocab-termstatus" ui-type="enum" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate">
+                <!-- adding termstatus authority; setting default value; deleting options list -->
+                <options action="delete" />
+                <enum>
+                    <default>urn:cspace:museumca.org:vocabularies:name(termstatus):item:name(provisional)'Provisional'</default>
+                </enum>
+            </field>
+            <field id="salutation" autocomplete="vocab-salutation" ui-type="enum">
+                <!-- adding salutation authority; deleting options list -->
+                <options action="delete" />
             </field>
             <field id="title" autocomplete="vocab-persontitle" ui-type="enum">
                 <!-- adding persontitle authority; deleting options list -->
