@@ -1145,4 +1145,15 @@
             <option id="other">other</option>
         </options>
     </instance>
+    <instance id="vocab-historicalstatus">
+        <web-url>historicalStatus</web-url>
+        <title-ref>historicalStatus</title-ref>
+        <title>Historical Status</title>
+        <options>
+            <option id="current">Current</option>
+            <option id="historical">Historical</option>
+            <option id="both">Both</option>
+            <option id="unknown">Unknown</option>
+        </options>
+    </instance>
 </instances>
