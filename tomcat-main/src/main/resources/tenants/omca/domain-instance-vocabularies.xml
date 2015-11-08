@@ -696,6 +696,90 @@
             <option id="water_body">Water body</option>
         </options>
     </instance>
+    <instance id="vocab-placehistoricalstatus">
+        <web-url>placehistoricalStatus</web-url>
+        <title-ref>placehistoricalStatus</title-ref>
+        <title>Place Historical Status</title>
+        <options>
+            <option id="current">Current</option>
+            <option id="historical">Historical</option>
+            <option id="both">Both</option>
+        </options>
+    </instance>
+    <instance id="vocab-vcoordsys">
+        <web-url>vcoordsys</web-url>
+        <title-ref>vcoordsys</title-ref>
+        <title>Coordinate System</title>
+        <options>
+            <option id="altitude_depth">Altitude depth</option>
+            <option id="latitude_longitude">Latitude and longitude</option>
+            <option id="national_grid_reference">National Grid reference</option>
+            <option id="utm">Universal Transverse Mercator (UTM)</option>
+        </options>
+    </instance>
+    <instance id="vocab-vspatialreferencesystem">
+        <web-url>vspatialreferencesystem</web-url>
+        <title-ref>vspatialreferencesystem</title-ref>
+        <title>Spatial Reference System</title>
+        <options>
+            <option id="epsg4326_wgs84">EPSG:4326-WGS84</option>
+            <option id="epsg4269_nad83">EPSG:4269-NAD83</option>
+            <option id="epsg4267_nad27">EPSG:4267-NAD27</option>
+            <option id="unknown">Unknown</option>
+        </options>
+    </instance>
+    <instance id="vocab-vunitofmeasure">
+        <web-url>vunitofmeasure</web-url>
+        <title-ref>vunitofmeasure</title-ref>
+        <title>Unit of Measure</title>
+        <options>
+            <option id="acres">acres</option>
+            <option id="centimeters">centimeters</option>
+            <option id="feet">feet</option>
+            <option id="hectares">hectares</option>
+            <option id="inches">inches</option>
+            <option id="kilometers">kilometers</option>
+            <option id="meters">meters</option>
+            <option id="miles">miles</option>
+            <option id="millimeters">millimeters</option>
+            <option id="square_feet">square feet</option>
+            <option id="square_meters">square meters</option>
+            <option id="square_yards">square yards</option>
+            <option id="stories">stories</option>
+        </options>
+    </instance>
+    <instance id="vocab-geodeticdatum">
+        <web-url>geodeticdatum</web-url>
+        <title-ref>geodeticdatum</title-ref>
+        <title>Geodetic Datum</title>
+        <options>
+            <option id="epsg4326_wgs84">EPSG:4326-WGS84</option>
+            <option id="epsg4269_nad83">EPSG:4269-NAD83</option>
+            <option id="epsg4267_nad27">EPSG:4267-NAD27</option>
+            <option id="unknown">Unknown</option>
+        </options>
+    </instance>
+    <instance id="vocab-georefprotocol">
+        <web-url>georefprotocol</web-url>
+        <title-ref>georefprotocol</title-ref>
+        <title>Georef Protocol</title>
+        <options>
+            <option id="chapman_wieczorek_2006_guide_best_practices_georeferencing">Chapman, Wieczorek 2006, Guide to Best Practices for Georeferencing</option>
+            <option id="manis_herpnet_ornis_georeferencing_guidelines">MaNIS/HerpNet/ORNIS Georeferencing Guidelines</option>
+            <option id="georeferencing_dummies">Georeferencing For Dummies</option>
+            <option id="biogeomancer">BioGeomancer</option>
+        </options>
+    </instance>
+    <instance id="vocab-georefverificationstatus">
+        <web-url>georefverificationstatus</web-url>
+        <title-ref>georefverificationstatus</title-ref>
+        <title>Georef Verification Status</title>
+        <options>
+            <option id="unverified">Unverified</option>
+            <option id="verified_data_custodian">Verified by data custodian</option>
+            <option id="verified_contributor">Verified by contributor</option>
+        </options>
+    </instance>
     <instance id="vocab-omcaloanoutstatus">
         <web-url>omcaloanoutstatus</web-url>
         <title-ref>omcaloanoutstatus</title-ref>
