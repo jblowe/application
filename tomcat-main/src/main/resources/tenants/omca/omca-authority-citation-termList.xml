@@ -1,15 +1,16 @@
 <record id="preferredCI" in-recordlist="no" separate-record="false">
     <section id="termInformation">
         <repeat id="citationTermGroupList/citationTermGroup">
-            <field id="termType" ui-search="repeatable" action="replace">
-                <selector>citationAuthority-termType</selector>
-                <!-- normalizing termType options list -->
-                <options>
-                    <option id="">no value selected</option>
-                    <option id="descriptor">Descriptor</option>
-                    <option id="alternatedescriptor">Alternate descriptor</option>
-                    <option id="usedforterm">Used for term</option>
-                </options>
+            <field id="termType" autocomplete="vocab-termtype" ui-type="enum">
+                <!-- adding termtype authority; deleting options list -->
+                <options action="delete" />
+            </field>
+            <field id="termStatus" autocomplete="vocab-termstatus" ui-type="enum" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate">
+                <!-- adding termstatus authority; setting default value; deleting options list -->
+                <options action="delete" />
+                <enum>
+                    <default>urn:cspace:museumca.org:vocabularies:name(termstatus):item:name(provisional)'Provisional'</default>
+                </enum>
             </field>
         </repeat>
     </section>
