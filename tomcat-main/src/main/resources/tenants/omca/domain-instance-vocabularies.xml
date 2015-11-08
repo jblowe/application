@@ -1240,4 +1240,72 @@
             <option id="unknown">Unknown</option>
         </options>
     </instance>
+    <instance id="vocab-taxontermtype">
+        <web-url>taxontermtype</web-url>
+        <title-ref>taxontermtype</title-ref>
+        <title>Taxon Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate_descriptor">Alternate descriptor</option>
+            <option id="used_for_term">Used for term</option>
+            <option id="common_name">Common name</option>
+        </options>
+    </instance>
+    <instance id="vocab-taxonomicstatus">
+        <web-url>taxonomicstatus</web-url>
+        <title-ref>taxonomicstatus</title-ref>
+        <title>Taxonomic Status</title>
+        <options>
+            <option id="valid">Valid</option>
+            <option id="invalid">Invalid</option>
+            <option id="accepted">Accepted</option>
+            <option id="misapplied_name">Misapplied Name</option>
+        </options>
+    </instance>
+    <instance id="vocab-taxonrank">
+        <web-url>taxonrank</web-url>
+        <title-ref>taxonrank</title-ref>
+        <title>Taxon Rank</title>
+        <options>
+            <option id="class">Class</option>
+            <option id="division">Division</option>
+            <option id="domain">Domain</option>
+            <option id="family">Family</option>
+            <option id="genus">Genus</option>
+            <option id="genusSpecies">Genus Species</option>
+            <option id="grade">Grade</option>
+            <option id="infraClass">Infraclass</option>
+            <option id="infraOrder">Infraorder</option>
+            <option id="kingdom">Kingdom</option>
+            <option id="order">Order</option>
+            <option id="phylum">Phylum</option>
+            <option id="section">Section</option>
+            <option id="species">Species</option>
+            <option id="subclass">Subclass</option>
+            <option id="subfamily">Subfamily</option>
+            <option id="subkingdom">Subkingdom</option>
+            <option id="suborder">Suborder</option>
+            <option id="subphylum">Subphylum</option>
+            <option id="variety">Variety</option>
+        </options>
+    </instance>
+    <instance id="vocab-taxoncurrency">
+        <web-url>taxoncurrency</web-url>
+        <title-ref>taxoncurrency</title-ref>
+        <title>Taxon Currency</title>
+        <options>
+            <option id="current">Current</option>
+            <option id="obsolete">Obsolete</option>
+            <option id="archaic">Archaic</option>
+        </options>
+    </instance>
+    <instance id="vocab-taxonauthortype">
+        <web-url>taxonauthortype</web-url>
+        <title-ref>taxonauthortype</title-ref>
+        <title>Taxon Author Type</title>
+        <options>
+            <option id="ascribed">Ascribed</option>
+            <option id="parenthetical">Parenthetical</option>
+        </options>
+    </instance>
 </instances>

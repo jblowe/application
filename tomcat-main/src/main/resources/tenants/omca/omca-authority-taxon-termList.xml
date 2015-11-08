@@ -1,27 +1,20 @@
 <record id="preferredTA" in-recordlist="no" separate-record="false">
     <section id="termInformation">
         <repeat id="taxonTermGroupList/taxonTermGroup">
-            <field id="termType">
-                <selector>taxonAuthority-termType</selector>
-                <!-- normalizing termType options list.
-                     adding new term -->
-                <options>
-                    <option id="">no value selected</option>
-                    <option id="descriptor">Descriptor</option>
-                    <option id="alternatedescriptor">Alternate descriptor</option>
-                    <option id="usedforterm">Used for term</option>
-                    <option id="commonName">Common name</option>
-                </options>
+            <field id="termType" autocomplete="vocab-taxontermtype" ui-type="enum">
+                <!-- adding taxontermtype authority; deleting options list -->
+                <options action="delete" />
             </field>
-            <field id="taxonomicStatus" ui-search="repeatable" >
-                <!-- replacing default value -->
-                <options>
-                    <option id="">no value selected</option>
-                    <option id="valid">Valid</option>
-                    <option id="invalid">Invalid</option>
-                    <option id="accepted">Accepted</option>
-                    <option id="misapplied name">Misapplied Name</option>
-                </options>
+            <field id="termStatus" autocomplete="vocab-termstatus" ui-type="enum" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate">
+                <!-- adding termstatus authority; setting default value; deleting options list -->
+                <options action="delete" />
+                <enum>
+                    <default>urn:cspace:museumca.org:vocabularies:name(termstatus):item:name(provisional)'Provisional'</default>
+                </enum>
+            </field>
+            <field id="taxonomicStatus" ui-search="repeatable" autocomplete="vocab-taxonomicstatus" ui-type="enum">
+                <!-- adding taxonomicstatus authority; deleting options list -->
+                <options action="delete" />
             </field>
         </repeat>
     </section>
