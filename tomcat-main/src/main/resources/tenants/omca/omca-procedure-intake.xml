@@ -8,7 +8,7 @@
                 <option id="intake" sample="IN2015.1">Intake</option>
             </options>
         </field>
-        <field id="entryReason" ui-search="repeatable" autocomplete="vocab-entryReason" ui-type="enum" seperate_ui_container="true">
+        <field id="entryReason" mini="summary,search,list,relate" ui-search="repeatable" autocomplete="vocab-entryReason" ui-type="enum" seperate_ui_container="true">
             <!-- removing options block; adding vocab-entryReason vocab -->
             <options action='delete'/>
         </field>
@@ -17,6 +17,9 @@
                 <!-- adding omcaentrymethod vocab -->
             </field>
         </repeat>
+        <field id="currentOwner" in-title="no" mini="search,list" ui-search="repeatable" autocomplete="person-person,organization-organization">
+            <!-- removing summary value from mini attribute -->
+        </field>
         <field id="sortableEntryNumber" section="omca" mini="list" ui-type="computed" ui-args="entryNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
