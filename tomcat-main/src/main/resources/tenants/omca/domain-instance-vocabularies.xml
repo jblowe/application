@@ -243,6 +243,20 @@
             <option id="vf">Valley Foundation</option>
         </options>
     </instance>
+    <instance id="vocab-acquisitionmethod">
+        <web-url>acquisitionmethod</web-url>
+        <title-ref>acquisitionmethod</title-ref>
+        <title>Acquisition Method</title>
+        <options>
+            <option id="bequest">Bequest</option>
+            <option id="exchange">Exchange</option>
+            <option id="gift">Gift</option>
+            <option id="purchase">Purchase</option>
+            <option id="gift_purchase">Gift/Purchase</option>
+            <option id="transfer">Transfer</option>
+            <option id="field_collected">Field Collected</option>
+        </options>
+    </instance>
     <instance id="vocab-omcaentrymethod">
         <web-url>omcaentrymethod</web-url>
         <title-ref>omcaentrymethod</title-ref>
