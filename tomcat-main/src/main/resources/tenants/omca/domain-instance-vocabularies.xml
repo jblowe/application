@@ -1335,4 +1335,33 @@
             <option id="parenthetical">Parenthetical</option>
         </options>
     </instance>
+    <instance id="vocab-exitmethod">
+        <web-url>exitmethod</web-url>
+        <title-ref>exitmethod</title-ref>
+        <title>Exit Method</title>
+        <options>
+            <option id="auction_house">Auction house</option>
+            <option id="sold">Sold</option>
+            <option id="destroyed">Destroyed</option>
+            <option id="repatriated">Repatriated</option>
+            <option id="stolen">Stolen</option>
+            <option id="transferred">Transferred</option>
+            <option id="white_elephant_sale">White Elephant sale</option>
+            <option id="see_notes">See notes</option>
+        </options>
+    </instance>
+    <instance id="vocab-exitreason">
+        <web-url>exitreason</web-url>
+        <title-ref>exitreason</title-ref>
+        <title>Exit Reason</title>
+        <options>
+            <option id="condition">Condition</option>
+            <option id="deaccession">Deaccession</option>
+            <option id="disposal">Disposal</option>
+            <option id="exchange">Exchange</option>
+            <option id="repatriation">Repatriation</option>
+            <option id="returned">Returned</option>
+            <option id="theft">Theft</option>  
+        </options>
+    </instance>
 </instances>
