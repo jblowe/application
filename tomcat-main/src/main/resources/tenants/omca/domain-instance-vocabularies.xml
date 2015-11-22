@@ -894,6 +894,68 @@
             <option id="Toxic">Toxic</option>
         </options>
     </instance>
+    <instance id="vocab-hazard">
+        <web-url>hazard</web-url>
+        <title-ref>hazard</title-ref>
+        <title>hazard</title>
+        <options>
+            <option id="poisonous">Poisonous</option>
+            <option id="radioactive">Radioactive</option>
+        </options>
+    </instance>
+    <instance id="vocab-assessmentrequestrole">
+        <web-url>assessmentrequestrole</web-url>
+        <title-ref>assessmentrequestrole</title-ref>
+        <title>Assessment Request Role</title>
+        <options>
+            <option id="curator">Curator</option>
+            <option id="restistrar">Restistrar</option>
+            <option id="conservator">Conservator</option>
+            <option id="other_staff">Other Staff</option>
+        </options>
+    </instance>
+    <instance id="vocab-needstreatment">
+        <web-url>needstreatment</web-url>
+        <title-ref>needstreatment</title-ref>
+        <title>Needs Treatment</title>
+        <options>
+            <option id="yes">yes</option>
+            <option id="no">no</option>
+        </options>
+    </instance>
+    <instance id="vocab-temperaturelevel">
+        <web-url>temperaturelevel</web-url>
+        <title-ref>temperaturelevel</title-ref>
+        <title>Temperature Level</title>
+        <options>
+            <option id="normal">Normal 65-68F</option>
+            <option id="cool">Cool 55-65F</option>
+            <option id="cold">Cold 33-54F</option>
+            <option id="freezer">Freezer 0-32F</option>
+        </options>
+    </instance>
+    <instance id="vocab-humiditylevel">
+        <web-url>humiditylevel</web-url>
+        <title-ref>humiditylevel</title-ref>
+        <title>Humidity Level</title>
+        <options>
+            <option id="50">50% RH +/- 5%</option>
+            <option id="45">45% RH +/- 5%</option>
+            <option id="35">35% RH +/- 5%</option>
+        </options>
+    </instance>
+    <instance id="vocab-lightlevel">
+        <web-url>lightlevel</web-url>
+        <title-ref>lightlevel</title-ref>
+        <title>Light Level</title>
+        <options>
+            <option id="50">50 lux max. with &lt;/= 75 uW/lumen UV content</option>
+            <option id="100">100 lux max. with &lt;/= 75 uW/lumen UV content</option>
+            <option id="150">150 lux max. with &lt;/= 75 uW/lumen UV content</option>
+            <option id="200">200 lux max. with &lt;/= 75 uW/lumen UV content</option>
+            <option id="300">300 lux max. with &lt;/= 75 uW/lumen UV content</option>
+        </options>
+    </instance>
     <instance id="vocab-valueType">
         <web-url>valueType</web-url>
         <title-ref>valueType</title-ref>
