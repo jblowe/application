@@ -829,10 +829,23 @@
         <title>Current Location Fitness</title>
         <options>
             <option id="dangerous">Dangerous</option>
-            <option id="inventory">Inventory</option>
             <option id="suitable">Suitable</option>
             <option id="temporary">Temporary</option>
             <option id="unsuitable">Unsuitable</option>
+        </options>
+    </instance>
+    <instance id="vocab-reasonformove">
+        <web-url>reasonformove</web-url>
+        <title-ref>reasonformove</title-ref>
+        <title>Reason For Move</title>
+        <options>
+            <option id="conservation">Conservation</option>
+            <option id="exhibition">Exhibition</option>
+            <option id="inventory">Inventory</option>
+            <option id="loan">Loan</option>
+            <option id="new_storage_location">New Storage Location</option>
+            <option id="photography">Photography</option>
+            <option id="research">Research</option>
         </options>
     </instance>
     <instance id="vocab-inventoryActionRequired">
@@ -841,7 +854,6 @@
         <title>Inventory Action Required</title>
         <options>
             <option id="conservation">Conservation</option>
-            <option id="preservation">Preservation</option>
             <option id="re_housing">Re-housing</option>
         </options>
     </instance>
