@@ -499,7 +499,7 @@
             <option id="protected_by_copyright">Protected by Copyright</option>
             <option id="assumed_protected_by_copyright">Assumed Protected by Copyright</option>
             <option id="copyright_omca">Copyright OMCA</option>
-            <option id="no_know_restrictions">No Know Restrictions</option>
+            <option id="no_known_restrictions">No Known Restrictions</option>
             <option id="public_domain">Public Domain</option>
         </options>
     </instance>

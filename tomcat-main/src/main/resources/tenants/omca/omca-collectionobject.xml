@@ -219,7 +219,7 @@
                 </field>
             </repeat>
             <field id="argusSubject" section="omca"></field>
-            <field id="signitureOMCA" section="omca"></field>
+            <field id="signatureOMCA" section="omca"></field>
             <field id="inscriptionOMCA" section="omca"></field>
         </section>
         <section id="textualInscriptionInformation">
