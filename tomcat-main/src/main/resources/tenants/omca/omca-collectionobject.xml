@@ -120,14 +120,16 @@
         <field id="art" ui-search="single" datatype="boolean" section="omca"></field>
         <field id="history" ui-search="single" datatype="boolean" section="omca"></field>
         <field id="science" ui-search="single" datatype="boolean" section="omca"></field>
-        <field id="publishedOnWeb" datatype="boolean" section="omca">
+        <field id="doNotPublishOnWeb" datatype="boolean" section="omca">
             <default>true</default>
         </field>
         <repeat id="photos" section="omca">
             <field id="photo" section="omca"></field>
         </repeat>
         <repeat id="determinationHistoryGroupList/determinationHistoryGroup" section="omca">
-            <field id="dhName" mini="list" autocomplete="taxon-taxon" section="omca"></field>
+            <field id="dhName" mini="list" autocomplete="taxon-taxon" ui-search="repeatable" section="omca">
+                <!-- making searchable -->
+            </field>
             <field id="dhQualifier" autocomplete="vocab-determinationQualifier" ui-type="enum" section="omca"></field>
             <field id="identBy" autocomplete="person-person" section="omca"></field>
             <field id="identDate" ui-type="date" section="omca"></field>
@@ -205,7 +207,7 @@
             </repeat>
             <repeat id="contentPersons">
                 <field id="contentPerson" autocomplete="person-person,person-ulan_pa" ui-search="repeatable">
-                     <!-- making searchable -->
+                    <!-- making searchable -->
                 </field>
             </repeat>
             <repeat id="contentPlaces">
@@ -215,7 +217,7 @@
             </repeat>
             <repeat id="contentOrganizations">
                 <field id="contentOrganization" autocomplete="organization-organization,organization-ulan_oa" ui-search="repeatable">
-                     <!-- making searchable -->
+                    <!-- making searchable -->
                 </field>
             </repeat>
             <field id="argusSubject" section="omca"></field>
@@ -297,9 +299,19 @@
             </options>
         </field>
         <section id="associationInformation">
+            <repeat id="assocConceptGroupList/assocConceptGroup">
+                <field id="assocConcept" autocomplete="concept-concept" ui-search="repeatable">
+                    <!-- making searchable -->
+                </field>
+            </repeat>
             <repeat id="assocCulturalContextGroupList/assocCulturalContextGroup">
-                <field id="assocCulturalContext" autocomplete="concept-concept">
-                    <!-- adding concept authority -->
+                <field id="assocCulturalContext" autocomplete="concept-concept" ui-search="repeatable">
+                    <!-- adding concept authority; making searchable -->
+                </field>
+            </repeat>
+            <repeat id="assocOrganizationGroupList/assocOrganizationGroup">
+                <field id="assocOrganization" autocomplete="organization-organization" ui-search="repeatable">
+                    <!-- making searchable -->
                 </field>
             </repeat>
             <repeat id="assocPersonGroupList/assocPersonGroup">
