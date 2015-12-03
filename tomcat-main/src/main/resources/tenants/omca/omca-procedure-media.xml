@@ -7,7 +7,7 @@
         <field id="identificationNumber" sortKey="sortableIdentificationNumber">
             <!-- adding sortKey attribute -->
             <options>
-                <option id="omca_media" sample="MR2015.1">Media Resource</option>
+                <option id="omca_media" sample="MH2015.1">Media Resource</option>
             </options>
         </field>
         <repeat id="types">

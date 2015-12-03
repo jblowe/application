@@ -5,7 +5,7 @@
             <!-- adding sortKey attribute -->
             <options>
                 <option id="omca_loanin" sample="LI2015.1">Loan In</option>
-                <option id="omca_cataloging_loanin_alt" sample="EX2015.1.1">Loans In (EX)</option>
+                <option id="omca_cataloging_loanin_alt" sample="EX">Loans In (EX)</option>
             </options>
         </field>
         <field id="loanPurpose" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-loanpurpose" ui-type="enum">

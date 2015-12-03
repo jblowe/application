@@ -68,6 +68,9 @@
         <field id="omca_accession">
             <selector>fe1895df-1b59-43b4-81bb-b1fc2109bd30</selector>
         </field>
+        <field id="omca_exhibition">
+            <selector>c95150b5-ec47-4db9-bcae-f4a532b2624f</selector>
+        </field>
         <field id="omca_loanin">
             <selector>8adfb11a-009b-4d13-969b-5ee6e4c47446</selector>
         </field>
