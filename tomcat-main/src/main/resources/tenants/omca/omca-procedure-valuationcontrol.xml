@@ -7,6 +7,14 @@
                 <option id="omca_valuationcontrol" sample="V2015.1">Valuation Control</option>
             </options>
         </field>
+        <repeat id="valueAmountsList/valueAmounts">
+            <field id="valueCurrency" autocomplete="vocab-currency" ui-type="enum">
+                <!-- adding default currency value -->
+                <enum>
+                    <default>urn:cspace:museumca.org:vocabularies:name(currency):item:name(USD)'US Dollar'</default>
+                </enum>
+            </field>
+        </repeat>
         <field id="valueType" autocomplete="vocab-valueType" ui-type="enum" ui-search="repeatable" in-title="yes" mini="search,list,relate">
             <!-- removing options block; adding vocab-valueType vocab; removing summary value for mini attribute -->
             <options action='delete'/>
