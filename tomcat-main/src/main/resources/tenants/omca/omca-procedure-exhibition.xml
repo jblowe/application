@@ -11,6 +11,7 @@
         <field id="type" ui-search="repeatable" autocomplete="vocab-omcaexhibitiontype" ui-type="enum">
             <!-- adding vocab-omcaexhibitiontype vocab -->
         </field>
+        <field id="projectNumber" section="omca"></field>
         
         <section id="exhibitionPlanningInformation">
             <repeat id="exhibitionSectionOMCAGroupList/exhibitionSectionOMCAGroup" section="omca">
