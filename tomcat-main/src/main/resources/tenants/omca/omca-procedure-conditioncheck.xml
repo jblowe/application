@@ -7,8 +7,8 @@
             </field>
         </repeat>
         <repeat id="hazardGroupList/hazardGroup">
-            <field id="hazard" autocomplete="vocab-hazard" ui-type="enum">
-                <!-- removing options block; adding vocab-hazard vocab -->
+            <field id="hazard" ui-search="repeatable" autocomplete="vocab-hazard" ui-type="enum">
+                <!-- removing options block; adding vocab-hazard vocab; making searchable -->
                 <options action='delete'/>
             </field>
         </repeat>
@@ -25,7 +25,7 @@
             <field id="assessmentRequestDateRequired" ui-type="date" ui-search="range" section="omca"></field>
         </repeat>
         <repeat id="omcaConditionCheckMethods" section="omca">
-            <field id="omcaConditionCheckMethod" autocomplete="vocab-conditionCheckMethod" ui-type="enum" section="omca"></field>
+            <field id="omcaConditionCheckMethod" autocomplete="vocab-omcaConditionCheckMethod" ui-type="enum" section="omca"></field>
         </repeat>
         <field id="okForExhibitLoanAccession" datatype="boolean" section="omca"></field>
         <field id="needsTreatment" autocomplete="vocab-needstreatment" ui-type="enum" section="omca"></field>
@@ -38,8 +38,8 @@
             <!-- removing options block; adding vocab-conditionCheckMethod vocab -->
             <options action='delete'/>
         </field>
-        <field id="conditionCheckReason" autocomplete="vocab-conditionCheckReason" ui-type="enum">
-            <!-- removing options block; adding vocab-conditionCheckReason vocab -->
+        <field id="conditionCheckReason" ui-search="repeatable" autocomplete="vocab-conditionCheckReason" ui-type="enum">
+            <!-- removing options block; adding vocab-conditionCheckReason vocab; making searchable -->
             <options action='delete'/>
         </field>
         <field id="conditionCheckRefNumber" sortKey="sortableConditionCheckRefNumber">
