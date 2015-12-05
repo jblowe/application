@@ -3,7 +3,8 @@
 
     <section id="exhibitionInformation">
         <field id="exhibitionNumber" ui-search="repeatable" in-title="yes" mini="number,search,list,relate"
-           chooser="yes" seperate_ui_container="true">
+           chooser="yes" seperate_ui_container="true" sortKey="sortableExhibitionNumber">
+            <!-- adding sortKey attribute -->
             <options>
                 <option id="omca_exhibition" sample="EX81">Exhibition</option>
             </options>
@@ -12,6 +13,9 @@
             <!-- adding vocab-omcaexhibitiontype vocab -->
         </field>
         <field id="projectNumber" section="omca"></field>
+        <field id="sortableExhibitionNumber" section="omca" mini="list" ui-type="computed" ui-args="exhibitionNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+            <!-- adding computed sortable ID number -->
+        </field>
         
         <section id="exhibitionPlanningInformation">
             <repeat id="exhibitionSectionOMCAGroupList/exhibitionSectionOMCAGroup" section="omca">
