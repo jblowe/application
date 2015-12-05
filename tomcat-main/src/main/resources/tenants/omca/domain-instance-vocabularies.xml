@@ -828,10 +828,8 @@
         <title-ref>currentLocationFitness</title-ref>
         <title>Current Location Fitness</title>
         <options>
-            <option id="dangerous">Dangerous</option>
-            <option id="suitable">Suitable</option>
-            <option id="temporary">Temporary</option>
-            <option id="unsuitable">Unsuitable</option>
+            <option id="permanent">permanent</option>
+            <option id="temporary">temporary</option>
         </options>
     </instance>
     <instance id="vocab-reasonformove">
