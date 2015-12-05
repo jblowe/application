@@ -1,6 +1,9 @@
 <record id="media" is-extension="true">
     <services-record-path id="omca">media_omca:http://collectionspace.org/services/media/local/omca,media_omca</services-record-path>
     <section id="mediaInformation">
+        <field id="title" ui-search="repeatable" mini="search,list,relate" services-schema-qualify="true">
+            <!-- removing summary value from mini attribute -->
+        </field>
         <field id="contributor" ui-search="repeatable" autocomplete="person-person,organization-organization">
             <!-- adding repeatable value for ui-search -->
         </field>
@@ -16,7 +19,9 @@
                 <options action="delete"/>
             </field>
         </repeat>
-        <field id="originalFileName" section="omca"></field>
+        <field id="originalFileName" mini="summary,list,relate" section="omca">
+            <!-- adding mini attribute -->
+        </field>
         <field id="isPrimary" datatype="boolean" section="omca"></field>
         <field id="approveForPublic" datatype="boolean" section="omca"></field>
         <field id="sortableIdentificationNumber" section="omca" mini="list" ui-type="computed" ui-args="identificationNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
