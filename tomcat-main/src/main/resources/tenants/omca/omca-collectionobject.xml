@@ -1,8 +1,8 @@
 <record id="collection-object" is-extension="true">
     <services-record-path id="omca">collectionobjects_omca:http://collectionspace.org/services/collectionobject/local/omca,collectionobjects_omca</services-record-path>
     <section id="coreInformation">
-        <field id="nametitle" mini="summary,search,list,relate" exists-in-services="false" service-field-alias="dhName">
-            <!-- updating merge fields -->
+        <field id="nametitle" mini="search,list,relate" exists-in-services="false" service-field-alias="dhName">
+            <!-- updating merge fields; ignoring this field for the computedCatalogingSummary field -->
             <merges>
                 <merge id="objectName" rank="1"/>
                 <merge id="dhName" rank="2"/>
@@ -111,6 +111,11 @@
         </repeat>
         <field id="computedCurrentLocationDisplay" section="omca" ui-type="computed" ui-args="computedCurrentLocation" ui-func="cspace.util.cloneField" ui-readonly="true">
             <!-- read-only version of computedCurrentLocation -->
+        </field>
+        <field id="computedCatalogingSummary" mini="summary,list" ui-type="computed" 
+            ui-args="titleGroup.0.title,objectNameGroup.0.objectName,determinationHistoryGroup.0.dhName,objectProductionPersonGroup.0.objectProductionPerson" 
+            ui-func="cspace.util.mergeFields" ui-readonly="true" section="omca">
+            <!-- combine title, objectName, dhName and objectProductionPerson into a single summary field -->
         </field>
         <field id="argusCount" section="omca"></field>
         <repeat id="categories" section="omca">
