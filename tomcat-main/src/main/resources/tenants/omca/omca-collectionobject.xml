@@ -109,7 +109,7 @@
                 <!-- adding concept authority -->
             </field>
         </repeat>
-        <field id="computedCurrentLocationDisplay" section="omca" ui-type="computed" ui-args="computedCurrentLocation" ui-func="cspace.util.cloneField" ui-readonly="true">
+        <field id="computedCurrentLocationDisplay" section="omca" services-readonly="true" ui-readonly="true">
             <!-- read-only version of computedCurrentLocation -->
         </field>
         <field id="computedCatalogingSummary" mini="summary,list" ui-type="computed" 
