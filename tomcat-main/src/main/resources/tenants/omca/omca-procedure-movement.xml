@@ -11,9 +11,13 @@
         <field id="computedMovementSummary" mini="summary" ui-type="computed" ui-args="currentLocation,currentLocationFitness" ui-func="cspace.util.mergeFields" ui-readonly="true" section="omca">
             <!-- combine currentLocation and currentLocationFitness to a single summary field -->
         </field>
+        <field id="sortableMovementReferenceNumber" section="omca" mini="list" ui-type="computed" ui-args="movementReferenceNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+            <!-- adding computed sortable ID number -->
+        </field>
     </section>
     <section id="movementControlInformation">
-        <field id="movementReferenceNumber">
+        <field id="movementReferenceNumber" sortKey="sortableMovementReferenceNumber">
+            <!-- adding sortKey attribute -->
             <options>
                 <option id="omca_location" sample="LOC2015.1">Location</option>
                 <option id="omca_inventory" sample="INV2015.1">Inventory</option>
