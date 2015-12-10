@@ -33,7 +33,8 @@
           "objectexit",
           "conditioncheck",
           "exhibition",
-          "valuationcontrol"
+          "valuationcontrol",
+          "restrictedmedia"
         ], 
         "type": "array"
       }, 

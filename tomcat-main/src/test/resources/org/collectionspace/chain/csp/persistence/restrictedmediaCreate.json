@@ -1,0 +1,27 @@
+{
+    "subjects": [{
+            "_primary": true,
+            "subject": "sdf asdf"
+        }, {
+            "subject": "asdf"
+        }],
+    "dimensionGroup": [{}],
+    "languages": [{
+        "language": "",
+        "_primary": true
+    }],
+    "dates": [{
+        "_primary": true
+    }],
+    "types": [{
+        "type": "",
+        "_primary": true
+    }],
+    "relations": [{
+        "_primary": true
+    }],
+    "identificationNumber": "MHR2015.5",
+    "title": "sdf",
+    "dimensionSummary": "sdf dsfsf sdfdsf ds",
+    "description": "asdf adfsasdf"
+}
