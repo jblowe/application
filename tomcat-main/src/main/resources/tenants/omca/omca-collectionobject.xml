@@ -113,9 +113,9 @@
             <!-- read-only version of computedCurrentLocation -->
         </field>
         <field id="computedCatalogingSummary" mini="summary,list" ui-type="computed" 
-            ui-args="titleGroup.0.title,objectNameGroup.0.objectName,determinationHistoryGroup.0.dhName,objectProductionPersonGroup.0.objectProductionPerson" 
+            ui-args="objectNameGroup.0.objectName,determinationHistoryGroup.0.dhName,objectProductionPersonGroup.0.objectProductionPerson" 
             ui-func="cspace.util.mergeFields" ui-readonly="true" section="omca">
-            <!-- combine title, objectName, dhName and objectProductionPerson into a single summary field -->
+            <!-- combine objectName, dhName and objectProductionPerson into a single summary field -->
         </field>
         <field id="argusCount" section="omca"></field>
         <repeat id="categories" section="omca">
