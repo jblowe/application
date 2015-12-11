@@ -103,6 +103,7 @@ public class TestService extends ServicesBaseClass {
 		testXMLJSON(spec, "conditioncheck", "conditioncheck.xml", "conditioncheck.json");
 		testXMLJSON(spec, "conservation", "conservation.xml", "conservation.json");
 		testXMLJSON(spec, "exhibition", "exhibition.xml", "exhibition.json");
+		testXMLJSON(spec, "restrictedmedia", "restrictedmedia.xml", "restrictedmedia.json");
 
 		testXMLJSON(spec, "role", "role.xml", "role.json");
 		testXMLJSON(spec, "permrole", "rolepermissions.xml",
@@ -162,6 +163,7 @@ public class TestService extends ServicesBaseClass {
 		testJSONXML(spec, "conditioncheck", "conditioncheck.xml", "conditioncheck.json");
 		testJSONXML(spec, "conservation", "conservation.xml", "conservation.json");
 		testJSONXML(spec, "exhibition", "exhibition.xml", "exhibition.json");
+		testJSONXML(spec, "restrictedmedia", "restrictedmedia.xml", "restrictedmedia.json");
 
 		testJSONXML(spec, "role", "role.xml", "role.json");
 
@@ -704,6 +706,8 @@ public class TestService extends ServicesBaseClass {
 				"conservation_common/conservationNumber", "CT2015.1");
 		testPostGetDelete("exhibitions/", "exhibitions_common", "exhibition.xml",
 				"exhibitions_common/exhibitionNumber", "EX123");
+		testPostGetDelete("restrictedmedia/", "restrictedmedia_common", "restrictedmedia.xml",
+				"restrictedmedia_common/title", "MHR2015.5");
 
 		// testPostGetDelete("relations/", "relations_common",
 		// "relationship.xml", "relations_common/relationshipType", "affects");

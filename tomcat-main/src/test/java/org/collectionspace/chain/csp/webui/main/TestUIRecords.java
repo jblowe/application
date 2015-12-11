@@ -230,6 +230,8 @@ public class TestUIRecords {
 		tester.testUIspec(jetty, "/exhibition/uischema", "exhibition.uischema");
 		tester.testUIspec(jetty, "/valuationcontrol-search/uischema", "valuationcontrol-search.uischema");
 		tester.testUIspec(jetty, "/valuationcontrol/uischema", "valuationcontrol.uischema");
+		tester.testUIspec(jetty, "/restrictedmedia-search/uischema", "restrictedmedia-search.uischema");
+		tester.testUIspec(jetty, "/restrictedmedia/uischema", "restrictedmedia.uischema");
 		
 		tester.testUIspec(jetty, "/cataloging/uispec", "collection-object.uispec");
 		tester.testUIspec(jetty, "/intake/uispec", "intake.uispec");
@@ -245,6 +247,8 @@ public class TestUIRecords {
 		tester.testUIspec(jetty, "/exhibition-search/uispec", "exhibition-search.uispec");
 		tester.testUIspec(jetty, "/valuationcontrol-search/uispec", "valuationcontrol-search.uispec");
 		tester.testUIspec(jetty, "/valuationcontrol/uispec", "valuationcontrol.uispec");
+		tester.testUIspec(jetty, "/restrictedmedia-search/uispec", "restrictedmedia-search.uispec");
+		tester.testUIspec(jetty, "/restrictedmedia/uispec", "restrictedmedia.uispec");
 
 	}
 
@@ -341,6 +345,23 @@ public class TestUIRecords {
 		tester.testUIspec(jetty, "/acquisition-search/uispec", "acquisition-search.uispec");
 		log.info("Testing Search UISCHEMA");
 		tester.testUIspec(jetty, "/acquisition-search/uischema", "acquisition-search.uischema");
+	}
+
+	/**
+	 * Test Restrictedmedia Procedure CRUDL
+	 */
+	@Test public void testProcedureRestrictedmedia() throws Exception {
+		log.info("Testing Restrictedmedia Procedure");
+		tester.testPostGetDelete(jetty, "/restrictedmedia/", tester.restrictedmediaCreate(), "description");
+		tester.testLists(jetty, "/restrictedmedia/", tester.restrictedmediaCreate(), "items");
+		log.info("Testing UISCHEMA");
+		tester.testUIspec(jetty, "/restrictedmedia/uischema", "restrictedmedia.uischema");
+		log.info("Testing UISPEC");
+		tester.testUIspec(jetty, "/restrictedmedia/uispec", "restrictedmedia.uispec");
+		log.info("Testing Search UISPEC");
+		tester.testUIspec(jetty, "/restrictedmedia-search/uispec", "restrictedmedia-search.uispec");
+		log.info("Testing Search UISCHEMA");
+		tester.testUIspec(jetty, "/restrictedmedia-search/uischema", "restrictedmedia-search.uischema");
 	}
 
 

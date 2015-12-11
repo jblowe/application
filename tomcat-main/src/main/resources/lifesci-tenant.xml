@@ -31,6 +31,7 @@
 				merge="xmlmerge.properties" />
 			<include src="base-procedure-objectexit.xml" />
 			<include src="base-procedure-conservation.xml"/>
+			<include src="base-procedure-restrictedmedia.xml"/>
 
 			<include src="base-authority-contact.xml" />
 			

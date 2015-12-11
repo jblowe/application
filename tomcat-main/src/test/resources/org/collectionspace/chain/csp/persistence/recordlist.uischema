@@ -30,7 +30,8 @@
       "conditioncheck",
       "conservation",
       "exhibition",
-      "valuationcontrol"
+      "valuationcontrol",
+      "restrictedmedia"
     ], 
     "type": "array"
   }
