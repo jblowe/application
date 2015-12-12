@@ -1,5 +1,5 @@
 <record id="restrictedmedia" is-extension="true">
-    <services-record-path id="omca">restrictedmedia_omca:http://collectionspace.org/services/media/local/omca,restrictedmedia_omca</services-record-path>
+    <services-record-path id="omca">restrictedmedia_omca:http://collectionspace.org/services/restrictedmedia/local/omca,restrictedmedia_omca</services-record-path>
     <section id="mediaInformation">
         <field id="title" ui-search="repeatable" mini="search,list,relate" services-schema-qualify="true">
             <!-- removing summary value from mini attribute -->
