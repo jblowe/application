@@ -63,8 +63,8 @@
             <field id="altClaimNote"></field>
         </repeat>
         <repeat id="claimClaimantGroupList/claimClaimantGroup">
-            <field id="filedBy" ui-search="repeatable" autocomplete="person-person,organization-organization"></field>
-            <field id="filedOnBehalfOf" ui-search="repeatable" mini="summary,search,list,relate" autocomplete="person-person,organization-organization"></field>
+            <field id="filedBy" ui-search="repeatable" mini="summary,search,list,relate" autocomplete="person-person,organization-organization"></field>
+            <field id="filedOnBehalfOf" ui-search="repeatable" autocomplete="person-person,organization-organization"></field>
             <field id="claimantNote"></field>
         </repeat>
         <repeat id="claimTypes">
