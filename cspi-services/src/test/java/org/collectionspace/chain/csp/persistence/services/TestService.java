@@ -102,6 +102,7 @@ public class TestService extends ServicesBaseClass {
 		testXMLJSON(spec, "media", "media.xml", "mediaJSON.json");
 		testXMLJSON(spec, "conditioncheck", "conditioncheck.xml", "conditioncheck.json");
 		testXMLJSON(spec, "exhibition", "exhibition.xml", "exhibition.json");
+		testXMLJSON(spec, "claim", "claim.xml", "claim.json");
 
 		testXMLJSON(spec, "role", "role.xml", "role.json");
 		testXMLJSON(spec, "permrole", "rolepermissions.xml",
@@ -160,6 +161,7 @@ public class TestService extends ServicesBaseClass {
 		testJSONXML(spec, "group", "group.xml", "group.json");
 		testJSONXML(spec, "conditioncheck", "conditioncheck.xml", "conditioncheck.json");
 		testJSONXML(spec, "exhibition", "exhibition.xml", "exhibition.json");
+		testJSONXML(spec, "claim", "claim.xml", "claim.json");
 
 		testJSONXML(spec, "role", "role.xml", "role.json");
 
@@ -700,6 +702,8 @@ public class TestService extends ServicesBaseClass {
 				"conditionchecks_common/conditionCheckRefNumber", "CC2013.001");
 		testPostGetDelete("exhibitions/", "exhibitions_common", "exhibition.xml",
 				"exhibitions_common/exhibitionNumber", "EX123");
+		testPostGetDelete("claims/", "claims_common", "claim.xml",
+				"claims_common/claimNumber", "CL2015.1");
 
 		// testPostGetDelete("relations/", "relations_common",
 		// "relationship.xml", "relations_common/relationshipType", "affects");

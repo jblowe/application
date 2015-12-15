@@ -1,0 +1,171 @@
+{
+    "claimNumber": "CL2015.1",
+    "claimName": "foo claim",
+    "altClaimNamesGroup": [
+        {
+            "_primary": true,
+            "altClaimName": "alt name",
+            "altClaimNote": "alt note"
+        }
+    ],
+    "claimClaimantGroup": [
+        {
+            "_primary": true,
+            "de-urned-filedOnBehalfOf": "John Doe",
+            "de-urned-filedBy": "Connie Curator",
+            "filedOnBehalfOf": "urn:cspace:core.collectionspace.org:personauthorities:name(person):item:name(JohnDoe1429860133232)'John Doe'",
+            "filedBy": "urn:cspace:core.collectionspace.org:personauthorities:name(person):item:name(ConnieCurator1429860191889)'Connie Curator'",
+            "claimantNote": "This is the claimant note"
+        }
+    ],
+    "claimTypes": [
+        {
+            "_primary": true,
+            "de-urned-claimType": "sacred object",
+            "claimType": "urn:cspace:core.collectionspace.org:vocabularies:name(claimtype):item:name(sacredobject)'sacred object'"
+        }
+    ],
+    "claimFiledDatesGroup": [
+        {
+            "_primary": true,
+            "claimFiledDate": "2015-12-13T00:00:00.000Z",
+            "claimFiledNote": "claim filed note"
+        }
+    ],
+    "claimNotes": [
+        {
+            "_primary": true,
+            "claimNote": "claim note"
+        }
+    ],
+    "sitesInvolvedGroup": [
+        {
+            "_primary": true,
+            "de-urned-siteOrPlaceName": "Bahston",
+            "siteOrPlaceName": "urn:cspace:core.collectionspace.org:placeauthorities:name(place):item:name(Bahston123456)'Bahston'",
+            "siteOrPlaceNote": "site or place notes"
+        }
+    ],
+    "culturalGroupsInvolvedGroup": [
+        {
+            "_primary": true,
+            "culturalGroupName": "cultural group name",
+            "culturalGroupNote": "cultural group note"
+        }
+    ],
+    "timePeriodsRepresentedGroup": [
+        {
+            "_primary": true,
+            "periodOrDateGroup": {
+                "_primary": true,
+                "dateAssociation": "",
+                "dateDisplayDate": "2015",
+                "dateEarliestScalarValue": "",
+                "dateEarliestSingleCertainty": "",
+                "dateEarliestSingleDay": "",
+                "dateEarliestSingleEra": "",
+                "dateEarliestSingleMonth": "",
+                "dateEarliestSingleQualifier": "",
+                "dateEarliestSingleQualifierUnit": "",
+                "dateEarliestSingleQualifierValue": "",
+                "dateEarliestSingleYear": "",
+                "dateLatestCertainty": "",
+                "dateLatestDay": "",
+                "dateLatestEra": "",
+                "dateLatestMonth": "",
+                "dateLatestQualifier": "",
+                "dateLatestQualifierUnit": "",
+                "dateLatestQualifierValue": "",
+                "dateLatestScalarValue": "",
+                "dateLatestYear": "",
+                "dateNote": "",
+                "datePeriod": "",
+                "scalarValuesComputed": false
+            },
+            "periodOrDateNote": "period or date note"
+        }
+    ],
+    "initialResponseDatesGroup": [
+        {
+            "_primary": true,
+            "initialResponseDate": "2015-12-13T00:00:00.000Z",
+            "initialResponseDateNote": ""
+        }
+    ],
+    "sentNAGPRACommitteeDatesGroup": [
+        {
+            "_primary": true,
+            "sentNAGPRACommitteeDate": "2015-12-13T00:00:00.000Z",
+            "sentNAGPRACommitteeNote": ""
+        }
+    ],
+    "recommendationsNAGPRACommitteeGroup": [
+        {
+            "_primary": true,
+            "recommendationNAGPRACommitteeDate": "2015-12-13T00:00:00.000Z",
+            "recommendationNAGPRACommitteeNote": ""
+        }
+    ],
+    "sentNationalNAGPRADatesGroup": [
+        {
+            "_primary": true,
+            "sentNationalNAGPRADate": "2015-12-13T00:00:00.000Z",
+            "sentNationalNAGPRANote": ""
+        }
+    ],
+    "responsesNationalNAGPRAGroup": [
+        {
+            "_primary": true,
+            "responseNationalNAGPRADate": "2015-12-13T00:00:00.000Z",
+            "responseNationalNAGPRANote": ""
+        }
+    ],
+    "publicationsNationalNAGPRAGroup": [
+        {
+            "_primary": true,
+            "publicationNationalNAGPRADate": "2015-12-13T00:00:00.000Z",
+            "publicationNationalNAGPRANote": ""
+        }
+    ],
+    "nationalNAGPRA30DayNoticesGroup": [
+        {
+            "_primary": true,
+            "nationalNAGPRA30DayNoticeDate": "2015-12-13T00:00:00.000Z",
+            "nationalNAGPRA30DayNoticeType": "period-begins",
+            "nationalNAGPRA30DayNoticeNote": ""
+        }
+    ],
+    "transferDatesGroup": [
+        {
+            "_primary": true,
+            "transferDate": "2015-12-13T00:00:00.000Z",
+            "transferNote": ""
+        }
+    ],
+    "dispositionPossibilitiesDiscussed": true,
+    "dispositionPossibilitiesDiscussedNote": "",
+    "surroundingTribesContacted": true,
+    "surroundingTribesContactedNote": "",
+    "institutionalNAGPRATeamNotified": true,
+    "institutionalNAGPRATeamNotifiedNote": "",
+    "siteFileResearchCompleted": true,
+    "siteFileResearchCompletedNote": "",
+    "accessionFileResearchCompleted": true,
+    "accessionFileResearchCompletedNote": "",
+    "objectsLocatedCounted": true,
+    "objectsLocatedCountedNote": "",
+    "objectsConsolidated": true,
+    "objectsConsolidatedNote": "",
+    "objectsPhotographed": true,
+    "objectsPhotographedNote": "",
+    "registrationDocumentsDrawnUp": true,
+    "registrationDocumentsDrawnUpNote": "",
+    "tribeContactedForPackingStorageInstructions": true,
+    "tribeContactedForPackingStorageInstructionsNote": "",
+    "dateArrangedPickupTransfer": true,
+    "dateArrangedPickupTransferNote": "",
+    "objectsMarkedDeaccessioned": true,
+    "objectsMarkedDeaccessionedNote": "",
+    "claimDocumentsArchives": true,
+    "claimDocumentsArchivesNote": ""
+}

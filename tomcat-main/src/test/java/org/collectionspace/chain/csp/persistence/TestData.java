@@ -49,6 +49,7 @@ public class TestData {
  	public final String objectexitCreate(){ return addData("objectexitCreate.json").toString(); };
  	public final String termlistCreate(){ return addData("termlistCreate.json").toString(); };
  	public final String groupCreate(){ return addData("groupCreate.json").toString(); };
+ 	public final String claimCreate(){ return addData("claimCreate.json").toString(); };
 
 	public final String roleCreate(){ return addData("roleCreate.json","displayName").toString(); };
 	public final String role2Create(){ return addData("role2Create.json","displayName").toString(); };
