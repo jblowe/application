@@ -71,7 +71,7 @@
             <field id="claimType" autocomplete="vocab-claimtype" ui-type="enum"></field>
         </repeat>
         <repeat id="claimFiledDatesGroupList/claimFiledDatesGroup">
-            <field id="claimFiledDate" ui-search="range" ui-type="date" datatype="date"></field>
+            <field id="claimFiledDate" ui-search="range" ui-type="date"></field>
             <field id="claimFiledNote"></field>
         </repeat>
         <repeat id="claimNotes">
@@ -96,31 +96,31 @@
     </section>
     <section id="claimsProcessingInformation">
         <repeat id="initialResponseDatesGroupList/initialResponseDatesGroup">
-            <field id="initialResponseDate" ui-type="date" datatype="date"></field>
+            <field id="initialResponseDate" ui-type="date"></field>
             <field id="initialResponseDateNote"></field>
         </repeat>
         <repeat id="sentNAGPRACommitteeDatesGroupList/sentNAGPRACommitteeDatesGroup">
-            <field id="sentNAGPRACommitteeDate" ui-type="date" datatype="date"></field>
+            <field id="sentNAGPRACommitteeDate" ui-type="date"></field>
             <field id="sentNAGPRACommitteeNote"></field>
         </repeat>
         <repeat id="recommendationsNAGPRACommitteeGroupList/recommendationsNAGPRACommitteeGroup">
-            <field id="recommendationNAGPRACommitteeDate" ui-type="date" datatype="date"></field>
+            <field id="recommendationNAGPRACommitteeDate" ui-type="date"></field>
             <field id="recommendationNAGPRACommitteeNote"></field>
         </repeat>
         <repeat id="sentNationalNAGPRADatesGroupList/sentNationalNAGPRADatesGroup">
-            <field id="sentNationalNAGPRADate" ui-type="date" datatype="date"></field>
+            <field id="sentNationalNAGPRADate" ui-type="date"></field>
             <field id="sentNationalNAGPRANote"></field>
         </repeat>
         <repeat id="responsesNationalNAGPRAGroupList/responsesNationalNAGPRAGroup">
-            <field id="responseNationalNAGPRADate" ui-type="date" datatype="date"></field>
+            <field id="responseNationalNAGPRADate" ui-type="date"></field>
             <field id="responseNationalNAGPRANote"></field>
         </repeat>
         <repeat id="publicationsNationalNAGPRAGroupList/publicationsNationalNAGPRAGroup">
-            <field id="publicationNationalNAGPRADate" ui-type="date" datatype="date"></field>
+            <field id="publicationNationalNAGPRADate" ui-type="date"></field>
             <field id="publicationNationalNAGPRANote"></field>
         </repeat>
         <repeat id="nationalNAGPRA30DayNoticesGroupList/nationalNAGPRA30DayNoticesGroup">
-            <field id="nationalNAGPRA30DayNoticeDate" ui-type="date" datatype="date"></field>
+            <field id="nationalNAGPRA30DayNoticeDate" ui-type="date"></field>
             <field id="nationalNAGPRA30DayNoticeType">
                 <options>
                     <option id="" default="yes">Please select a value</option>
