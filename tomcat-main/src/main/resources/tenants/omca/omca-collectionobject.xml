@@ -147,7 +147,7 @@
         <field id="sortableObjectNumber" section="omca" mini="list" ui-type="computed" ui-args="objectNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
-        <field id="ipAudit" autocomplete="vocab-ipaudit" ui-type="enum" section="omca"></field>
+        <field id="ipAudit" ui-search="repeatable" autocomplete="vocab-ipaudit" ui-type="enum" section="omca"></field>
         <field id="copyrightHolder" autocomplete="person-person,organization-organization" section="omca"></field>
     </section>
     <section id="descriptionInformation">
