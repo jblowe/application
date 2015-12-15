@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ns2:claims_common xmlns:ns2="http://collectionspace.org/services/claims" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <claimNumber>CL2015.1</claimNumber>
+    <claimName>foo claim</claimName>
+    <altClaimNamesGroupList>
+        <altClaimNamesGroup>
+            <altClaimName>alt name</altClaimName>
+            <altClaimNote>alt note</altClaimNote>
+        </altClaimNamesGroup>
+    </altClaimNamesGroupList>
+    <claimClaimantGroupList>
+        <claimClaimantGroup>
+            <filedOnBehalfOf>urn:cspace:core.collectionspace.org:personauthorities:name(person):item:name(JohnDoe1429860133232)'John Doe'</filedOnBehalfOf>
+            <filedBy>urn:cspace:core.collectionspace.org:personauthorities:name(person):item:name(ConnieCurator1429860191889)'Connie Curator'</filedBy>
+            <claimantNote>This is the claimant note</claimantNote>
+        </claimClaimantGroup>
+    </claimClaimantGroupList>
+    <claimTypes>
+        <claimType>urn:cspace:core.collectionspace.org:vocabularies:name(claimtype):item:name(sacredobject)'sacred object'</claimType>
+    </claimTypes>
+    <claimFiledDatesGroupList>
+        <claimFiledDatesGroup>
+            <claimFiledDate>2015-12-13T00:00:00.000Z</claimFiledDate>
+            <claimFiledNote>claim filed note</claimFiledNote>
+        </claimFiledDatesGroup>
+    </claimFiledDatesGroupList>
+    <claimNotes>
+        <claimNote>claim note</claimNote>
+    </claimNotes>
+    <sitesInvolvedGroupList>
+        <sitesInvolvedGroup>
+            <siteOrPlaceName>urn:cspace:core.collectionspace.org:placeauthorities:name(place):item:name(Bahston123456)'Bahston'</siteOrPlaceName>
+            <siteOrPlaceNote>site or place notes</siteOrPlaceNote>
+        </sitesInvolvedGroup>
+    </sitesInvolvedGroupList>
+    <culturalGroupsInvolvedGroupList>
+        <culturalGroupsInvolvedGroup>
+            <culturalGroupName>cultural group name</culturalGroupName>
+            <culturalGroupNote>cultural group note</culturalGroupNote>
+        </culturalGroupsInvolvedGroup>
+    </culturalGroupsInvolvedGroupList>
+    <timePeriodsRepresentedGroupList>
+        <timePeriodsRepresentedGroup>
+            <periodOrDateGroup>
+                <dateEarliestSingleQualifier/>
+                <scalarValuesComputed>false</scalarValuesComputed>
+                <dateLatestDay/>
+                <dateLatestYear/>
+                <dateAssociation/>
+                <dateEarliestSingleEra/>
+                <dateDisplayDate>2015</dateDisplayDate>
+                <dateEarliestSingleCertainty/>
+                <dateLatestEra/>
+                <dateEarliestSingleQualifierValue/>
+                <dateLatestCertainty/>
+                <dateEarliestSingleYear/>
+                <dateLatestQualifier/>
+                <dateLatestQualifierValue/>
+                <dateEarliestSingleQualifierUnit/>
+                <datePeriod/>
+                <dateEarliestScalarValue/>
+                <dateLatestMonth/>
+                <dateNote/>
+                <dateLatestScalarValue/>
+                <dateLatestQualifierUnit/>
+                <dateEarliestSingleDay/>
+                <dateEarliestSingleMonth/>
+            </periodOrDateGroup>
+            <periodOrDateNote>period or date note</periodOrDateNote>
+        </timePeriodsRepresentedGroup>
+    </timePeriodsRepresentedGroupList>
+    <initialResponseDatesGroupList>
+        <initialResponseDatesGroup>
+            <initialResponseDate>2015-12-13T00:00:00.000Z</initialResponseDate>
+            <initialResponseDateNote></initialResponseDateNote>
+        </initialResponseDatesGroup>
+    </initialResponseDatesGroupList>
+    <sentNAGPRACommitteeDatesGroupList>
+        <sentNAGPRACommitteeDatesGroup>
+            <sentNAGPRACommitteeDate>2015-12-13T00:00:00.000Z</sentNAGPRACommitteeDate>
+            <sentNAGPRACommitteeNote></sentNAGPRACommitteeNote>
+        </sentNAGPRACommitteeDatesGroup>
+    </sentNAGPRACommitteeDatesGroupList>
+    <recommendationsNAGPRACommitteeGroupList>
+        <recommendationsNAGPRACommitteeGroup>
+            <recommendationNAGPRACommitteeDate>2015-12-13T00:00:00.000Z</recommendationNAGPRACommitteeDate>
+            <recommendationNAGPRACommitteeNote></recommendationNAGPRACommitteeNote>
+        </recommendationsNAGPRACommitteeGroup>
+    </recommendationsNAGPRACommitteeGroupList>
+    <sentNationalNAGPRADatesGroupList>
+        <sentNationalNAGPRADatesGroup>
+            <sentNationalNAGPRADate>2015-12-13T00:00:00.000Z</sentNationalNAGPRADate>
+            <sentNationalNAGPRANote></sentNationalNAGPRANote>
+        </sentNationalNAGPRADatesGroup>
+    </sentNationalNAGPRADatesGroupList>
+    <responsesNationalNAGPRAGroupList>
+        <responsesNationalNAGPRAGroup>
+            <responseNationalNAGPRADate>2015-12-13T00:00:00.000Z</responseNationalNAGPRADate>
+            <responseNationalNAGPRANote></responseNationalNAGPRANote>
+        </responsesNationalNAGPRAGroup>
+    </responsesNationalNAGPRAGroupList>
+    <publicationsNationalNAGPRAGroupList>
+        <publicationsNationalNAGPRAGroup>
+            <publicationNationalNAGPRADate>2015-12-13T00:00:00.000Z</publicationNationalNAGPRADate>
+            <publicationNationalNAGPRANote></publicationNationalNAGPRANote>
+        </publicationsNationalNAGPRAGroup>
+    </publicationsNationalNAGPRAGroupList>
+    <nationalNAGPRA30DayNoticesGroupList>
+        <nationalNAGPRA30DayNoticesGroup>
+            <nationalNAGPRA30DayNoticeDate>2015-12-13T00:00:00.000Z</nationalNAGPRA30DayNoticeDate>
+            <nationalNAGPRA30DayNoticeType>period-begins</nationalNAGPRA30DayNoticeType>
+            <nationalNAGPRA30DayNoticeNote></nationalNAGPRA30DayNoticeNote>
+        </nationalNAGPRA30DayNoticesGroup>
+    </nationalNAGPRA30DayNoticesGroupList>
+    <transferDatesGroupList>
+        <transferDatesGroup>
+            <transferDate>2015-12-13T00:00:00.000Z</transferDate>
+            <transferNote></transferNote>
+        </transferDatesGroup>
+    </transferDatesGroupList>
+    <dispositionPossibilitiesDiscussed>true</dispositionPossibilitiesDiscussed>
+    <dispositionPossibilitiesDiscussedNote/>
+    <surroundingTribesContacted>true</surroundingTribesContacted>
+    <surroundingTribesContactedNote/>
+    <institutionalNAGPRATeamNotified>true</institutionalNAGPRATeamNotified>
+    <institutionalNAGPRATeamNotifiedNote/>
+    <siteFileResearchCompleted>true</siteFileResearchCompleted>
+    <siteFileResearchCompletedNote/>
+    <accessionFileResearchCompleted>true</accessionFileResearchCompleted>
+    <accessionFileResearchCompletedNote/>
+    <objectsLocatedCounted>true</objectsLocatedCounted>
+    <objectsLocatedCountedNote/>
+    <objectsConsolidated>true</objectsConsolidated>
+    <objectsConsolidatedNote/>
+    <objectsPhotographed>true</objectsPhotographed>
+    <objectsPhotographedNote/>
+    <registrationDocumentsDrawnUp>true</registrationDocumentsDrawnUp>
+    <registrationDocumentsDrawnUpNote/>
+    <tribeContactedForPackingStorageInstructions>true</tribeContactedForPackingStorageInstructions>
+    <tribeContactedForPackingStorageInstructionsNote/>
+    <dateArrangedPickupTransfer>true</dateArrangedPickupTransfer>
+    <dateArrangedPickupTransferNote/>
+    <objectsMarkedDeaccessioned>true</objectsMarkedDeaccessioned>
+    <objectsMarkedDeaccessionedNote/>
+    <claimDocumentsArchives>true</claimDocumentsArchives>
+    <claimDocumentsArchivesNote/>
+</ns2:claims_common>

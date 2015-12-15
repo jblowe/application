@@ -35,7 +35,8 @@
           "conservation",
           "exhibition",
           "valuationcontrol",
-          "restrictedmedia"
+          "restrictedmedia",
+          "claim"
         ], 
         "type": "array"
       }, 

@@ -61,6 +61,9 @@
                     <field id="restrictedmedia">
                         <selector>d49b096b-7b01-4f53-9c49-b437a7e5418e</selector>
                     </field>
+                    <field id="claim">
+                        <selector>a253d167-4f1a-4be3-a477-a2bd8a30cd7f</selector>
+                    </field>
                     <!-- The following ID generators are not obviously used -->
                     <field id="accession-activity">
                         <selector>1a67470b-19b1-4ae3-88d4-2a0aa936270e</selector>

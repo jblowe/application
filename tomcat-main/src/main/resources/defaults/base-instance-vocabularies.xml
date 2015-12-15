@@ -397,4 +397,20 @@
                             <option id="aftertreatment">after treatment</option>
                         </options>
                     </instance>
+                    <instance id="vocab-claimtype">
+                        <web-url>claimtype</web-url>
+                        <title-ref>claimtype</title-ref>
+                        <title>Claim Type</title>
+                        <options>
+                            <option id="affiliatedhumanskeletalremains">affiliated human skeletal remains</option>
+                            <option id="unaffiliatedhumanskeletalremains">unaffiliated human skeletal remains</option>
+                            <option id="associatedfuneraryobject">associated funerary object</option>
+                            <option id="unassociatedfuneraryobject">unassociated funerary object</option>
+                            <option id="sacredobject">sacred object</option>
+                            <option id="objectofculturalpatrimony">object of cultural patrimony</option>
+                            <option id="notsubjecttoNAGPRA">not subject to NAGPRA</option>
+                            <option id="needsfurtherresearch">needs further research</option>
+                            <option id="unknown">unknown</option>
+                        </options>
+                    </instance>
 </instances>

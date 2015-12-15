@@ -232,6 +232,8 @@ public class TestUIRecords {
 		tester.testUIspec(jetty, "/valuationcontrol/uischema", "valuationcontrol.uischema");
 		tester.testUIspec(jetty, "/restrictedmedia-search/uischema", "restrictedmedia-search.uischema");
 		tester.testUIspec(jetty, "/restrictedmedia/uischema", "restrictedmedia.uischema");
+		tester.testUIspec(jetty, "/claim-search/uischema", "claim-search.uischema");
+		tester.testUIspec(jetty, "/claim/uischema", "claim.uischema");
 		
 		tester.testUIspec(jetty, "/cataloging/uispec", "collection-object.uispec");
 		tester.testUIspec(jetty, "/intake/uispec", "intake.uispec");
@@ -249,6 +251,8 @@ public class TestUIRecords {
 		tester.testUIspec(jetty, "/valuationcontrol/uispec", "valuationcontrol.uispec");
 		tester.testUIspec(jetty, "/restrictedmedia-search/uispec", "restrictedmedia-search.uispec");
 		tester.testUIspec(jetty, "/restrictedmedia/uispec", "restrictedmedia.uispec");
+		tester.testUIspec(jetty, "/claim-search/uispec", "claim-search.uispec");
+		tester.testUIspec(jetty, "/claim/uispec", "claim.uispec");
 
 	}
 
@@ -407,6 +411,24 @@ public class TestUIRecords {
 		tester.testUIspec(jetty, "/valuationcontrol-search/uischema", "valuationcontrol-search.uischema");
 	}
 
+
+	/**
+     *  Test Claim Procedure CRUDL
+     */
+	@Test public void testProcedureClaim() throws Exception {
+		log.info("Testing claim Procedure");
+		tester.testPostGetDelete(jetty, "/claim/", tester.claimCreate(), "claimNumber");
+		tester.testLists(jetty, "/claim/", tester.claimCreate(), "items");
+		log.info("Testing UISCHEMA");
+		tester.testUIspec(jetty, "/claim/uischema", "claim.uischema");
+		log.info("Testing UISPEC");
+		tester.testUIspec(jetty, "/claim/uispec", "claim.uispec");
+		log.info("Testing Search UISPEC");
+		tester.testUIspec(jetty, "/claim-search/uispec", "claim-search.uispec");
+		log.info("Testing Search UISCHEMA");
+		tester.testUIspec(jetty, "/claim-search/uischema", "claim-search.uischema");
+	}
+
 	
 	/**
 	 * Test Authorities
@@ -522,7 +544,7 @@ public class TestUIRecords {
 	 */
 	@Test public void testSearch() throws Exception {
 		log.info("Testing Search ordering");
-		String[] allRecords = {"acquisition","loanin","loanout","cataloging","objectexit","intake","group","movement","conditioncheck","valuationcontrol"};
+		String[] allRecords = {"acquisition","loanin","loanout","cataloging","objectexit","intake","group","movement","conditioncheck","valuationcontrol","claim"};
 		
 		for(String r : allRecords) {
 			log.info("Testing Search ordering: "+r);
