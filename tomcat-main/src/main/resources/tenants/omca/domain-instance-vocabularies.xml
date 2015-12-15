@@ -1453,4 +1453,24 @@
             <option id="loanreturn">Loan Return</option>
         </options>
     </instance>
+    <instance id="vocab-federallyrecognized">
+        <web-url>federallyrecognized</web-url>
+        <title-ref>federallyrecognized</title-ref>
+        <title>Federally Recognized</title>
+        <options>
+            <option id="yes">yes</option>
+            <option id="no">no</option>
+        </options>
+    </instance>
+    <instance id="vocab-transactiontype">
+        <web-url>transactiontype</web-url>
+        <title-ref>transactiontype</title-ref>
+        <title>Transaction Type</title>
+        <options>
+            <option id="summary_request">Summary Request</option>
+            <option id="inventory_request">Inventory Request</option>
+            <option id="visit_request">Visit Request</option>
+            <option id="claim">Claim</option>
+        </options>
+    </instance>
 </instances>

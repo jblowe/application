@@ -107,6 +107,9 @@
         <field id="omca_valuationcontrol">
             <selector>962faf0e-4e72-4c36-8756-86956a4a3753</selector>
         </field>
+        <field id="omca_claim">
+            <selector>a2d23669-8fbd-4efd-88c0-4590dc17f40f</selector>
+        </field>
         <!--
             This is the type for id generators - if you add a new record type that has an id_generator you need to:
             log into cspace db and look at table id_generators and find the csid for the record type
