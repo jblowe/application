@@ -34,6 +34,11 @@
         </field>
     </section>
     <section id="claimContextInformation">
+        <repeat id="sitesInvolvedGroupList/sitesInvolvedGroup">
+            <field id="siteOrPlaceName" action='replace'>
+                <!-- convert vocab field into text -->
+            </field>
+        </repeat>
         <repeat id="culturalGroupsInvolvedGroupList/culturalGroupsInvolvedGroup">
             <field id="culturalGroupName" autocomplete="organization-organization">
                 <!-- adding organization authority -->
