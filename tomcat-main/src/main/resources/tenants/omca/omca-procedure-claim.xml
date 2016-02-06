@@ -5,7 +5,7 @@
         <field id="claimNumber" sortKey="sortableClaimNumber">
             <!-- adding sortKey attribute -->
             <options>
-                <option id="omca_claim" sample="NGP2015.1">Claim</option>
+                <option id="omca_claim" sample="NGP2015.1">Claim/Request</option>
             </options>
         </field>
         <repeat id="claimClaimantGroupList/claimClaimantGroup">
