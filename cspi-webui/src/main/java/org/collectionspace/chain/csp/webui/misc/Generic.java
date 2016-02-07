@@ -95,6 +95,9 @@ public class Generic {
 	 */
 	public static String ResourceNameUI(Spec spec, String servicename){
 		try{
+			// HACK OMCA-4 hard-code unique name for Taxon authority item so it will not overlap the UI name 
+			// for the taxonauthority authority name. There should be a better way to accomplish this...
+			if (servicename.equals("taxon")) {servicename = "taxons";}
 			Record test = null;
 			//can we do a simple match
 			if(spec.hasRecord(servicename)){
