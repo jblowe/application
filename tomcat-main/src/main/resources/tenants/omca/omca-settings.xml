@@ -37,7 +37,7 @@
     </email>
     <persistence>
         <service>
-            <url>http://localhost:8180/cspace-services</url>
+            <url>http://localhost:@JEE_PORT@/cspace-services</url>
             <tenant>
                 <id>35</id>
                 <name>museumca.org</name>
