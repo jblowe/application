@@ -433,7 +433,7 @@ public class RecordCreateUpdate implements WebMethodWithOps {
 				}
 			}
 			
-			if (this.record.getID().equals("media")) {
+			if (this.record.getID().equals("media") || this.record.getID().equals("restrictedmedia")) {
 				JSONObject fields=data.optJSONObject("fields");
 				// Handle linked media references
 				if (!fields.has("blobCsid") || StringUtils.isEmpty(fields.getString("blobCsid"))) {	// If has blobCsid, already has media link so do nothing more
