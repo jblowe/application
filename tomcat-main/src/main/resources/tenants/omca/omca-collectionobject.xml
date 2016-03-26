@@ -29,10 +29,6 @@
             <field id="responsibleDepartment" autocomplete="vocab-responsibleDepartment" ui-type="enum" ui-search="repeatable" mini="search,list" seperate_ui_container="true">
                 <!-- removing options block; adding vocab-responsibleDepartment vocab -->
                 <options action='delete'/>
-                <!-- adding default responsibleDepartment value -->
-                <enum>
-                    <default>urn:cspace:museumca.org:vocabularies:name(responsibleDepartment):item:name(CIA)'CIA'</default>
-                </enum>
             </field>
         </repeat>
         <field id="collection" ui-search="repeatable" autocomplete="vocab-collection" ui-type="enum" seperate_ui_container="true">
