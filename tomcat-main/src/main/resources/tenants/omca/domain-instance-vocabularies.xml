@@ -1439,6 +1439,18 @@
             <option id="theft">Theft</option>  
         </options>
     </instance>
+    <instance id="vocab-exitstatus">
+        <web-url>exitstatus</web-url>
+        <title-ref>exitstatus</title-ref>
+        <title>Exit Status</title>
+        <options>
+            <option id="collections_team_approval">Collections team approval</option>
+            <option id="museum_director_approval">Museum director approval</option>
+            <option id="board_approval">Board approval</option>
+            <option id="pending_disposal_options">Pending disposal options</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
     <instance id="vocab-omcatreatmentpurpose">
         <web-url>omcatreatmentpurpose</web-url>
         <title-ref>omcatreatmentpurpose</title-ref>
