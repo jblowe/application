@@ -540,7 +540,7 @@ public class DataGenerator extends SchemaStructure implements WebMethod {
 				else if (r.getID().equals("structureddate") || r.getID().equals("media") 
 						|| r.getID().equals("hierarchy") || r.getID().equals("blobs") 
 						|| r.getID().equals("dimension") || r.getID().equals("contacts")
-						|| r.isType("searchall")){
+						|| r.isType("searchall") || r.getID().equals("restrictedmedia") ){
 					//and ignore these
 				}
 				else if (r.getID().equals("termlist") ||r.getID().equals("termlistitem")){

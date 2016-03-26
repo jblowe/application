@@ -187,6 +187,7 @@ public class WebUI implements CSP, UI, Configurable {
 
 	private void configure_finish(Spec spec) {
 		final String MEDIA_RECORD_ID = "media";
+		final String RESTRICTEDMEDIA_RECORD_ID = "restrictedmedia";
 		
 		for(Operation op : Operation.values())
 			tries.put(op,new Trie());	
@@ -218,6 +219,9 @@ public class WebUI implements CSP, UI, Configurable {
 		Record mediaR = spec.getRecord(MEDIA_RECORD_ID);
 		if(mediaR==null)
 			log.error("No media record configured!!!");
+		Record restrictedmediaR = spec.getRecord(RESTRICTEDMEDIA_RECORD_ID);
+		if(restrictedmediaR==null)
+			log.error("No media record configured!!!");
 		for(Record r : spec.getAllRecords()) {
 			addMethod(Operation.READ,new String[]{r.getWebURL(),"generator"},0,new DataGenerator(r,"screen"));
 			addMethod(Operation.READ,new String[]{r.getWebURL(),"serviceschema"},0,new ServicesXsd(r,"common"));
@@ -246,6 +250,9 @@ public class WebUI implements CSP, UI, Configurable {
 				// We'll search on media related to the CSID tail.
 				if(mediaR!=null) {
 					addMethod(Operation.READ,new String[]{r.getWebURL(),mediaR.getWebURL()},1,new RecordSearchList(mediaR,RecordSearchList.MODE_SEARCH_RELATED));
+				}
+				if(restrictedmediaR!=null) {
+					addMethod(Operation.READ,new String[]{r.getWebURL(),restrictedmediaR.getWebURL()},1,new RecordSearchList(restrictedmediaR,RecordSearchList.MODE_SEARCH_RELATED));
 				}
 				for(Instance n : r.getAllInstances()) {
 					addMethod(Operation.READ,new String[]{"vocabularies",n.getWebURL()},0,new AuthoritiesVocabulariesSearchList(n,false));
