@@ -46,6 +46,7 @@
             </tenant>
             <repository>
                 <domain>omca-domain</domain>
+                <name>omca_domain</name>
                 <client>nuxeo-java</client>
                 <dateformats>
                     <pattern>MM/dd/yyyy</pattern>
