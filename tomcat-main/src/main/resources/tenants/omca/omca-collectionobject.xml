@@ -140,8 +140,11 @@
             <field id="dhPage" section="omca"></field>
             <field id="dhNotes" section="omca"></field>
         </repeat>
-        <field id="sortableObjectNumber" section="omca" mini="list" ui-type="computed" ui-args="objectNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableObjectNumber" section="omca" ui-search="range" mini="list" ui-type="computed" ui-search-args="objectNumberRangeSearch" ui-args="objectNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
+        </field>
+        <field id="objectNumberRangeSearch" ui-search="range" exists-in-services="false" query-behavior="ignore">
+            <!-- This is an app-layer-only field, used in advanced search to enter "regular" object numbers, which will be computed into sortableObjectNumber for range search. -->
         </field>
         <field id="ipAudit" ui-search="repeatable" autocomplete="vocab-ipaudit" ui-type="enum" section="omca"></field>
         <field id="copyrightHolder" autocomplete="person-person,organization-organization" section="omca"></field>
