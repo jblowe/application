@@ -23,7 +23,7 @@
             </field>
             <field id="acquisitionFundingSourceProvisos"></field>
         </repeat>
-        <field id="sortableAcquisitionReferenceNumber" section="omca" mini="list" ui-type="computed" ui-args="acquisitionReferenceNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableAcquisitionReferenceNumber" section="omca" mini="list" ui-type="computed" ui-args="acquisitionReferenceNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
         <repeat id="contactGroupList/contactGroup" section="omca">

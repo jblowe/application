@@ -15,7 +15,7 @@
         <field id="condition" ui-search="repeatable" in-title="yes" autocomplete="vocab-condition" ui-type="enum" seperate_ui_container="true" mini="summary,search,list,relate" section="omca"></field>
         <field id="conditionDate" ui-type="date" datatype="date" section="omca"></field>
         <field id="conditionNote" section="omca"></field>
-        <field id="sortableConditionCheckRefNumber" section="omca" mini="list" ui-type="computed" ui-args="conditionCheckRefNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableConditionCheckRefNumber" section="omca" mini="list" ui-type="computed" ui-args="conditionCheckRefNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- A computed sortable ID number -->
         </field>
         <repeat id="assessmentRequestGroupList/assessmentRequestGroup" section="omca">

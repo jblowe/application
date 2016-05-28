@@ -29,7 +29,7 @@
             <field id="noteOnRequest" section="omca"/>
         </repeat>
         <field id="claimNumberOMCA" ui-search="repeatable" section="omca"/>
-        <field id="sortableClaimNumber" section="omca" mini="list" ui-type="computed" ui-args="claimNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableClaimNumber" section="omca" mini="list" ui-type="computed" ui-args="claimNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
     </section>

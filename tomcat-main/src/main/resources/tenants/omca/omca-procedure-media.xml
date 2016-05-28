@@ -24,7 +24,7 @@
         </field>
         <field id="isPrimary" datatype="boolean" section="omca"></field>
         <field id="approveForPublic" datatype="boolean" section="omca"></field>
-        <field id="sortableIdentificationNumber" section="omca" mini="list" ui-type="computed" ui-args="identificationNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableIdentificationNumber" section="omca" mini="list" ui-type="computed" ui-args="identificationNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
     </section>

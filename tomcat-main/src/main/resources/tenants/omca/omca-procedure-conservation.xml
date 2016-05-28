@@ -11,7 +11,7 @@
         <field id="treatmentPurpose" ui-search="repeatable" autocomplete="vocab-omcatreatmentpurpose" ui-type="enum">
             <!-- changing vocab to vocab-loaninstatus -->
         </field>
-        <field id="sortableConservationNumber" section="omca" mini="list" ui-type="computed" ui-args="conservationNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableConservationNumber" section="omca" mini="list" ui-type="computed" ui-args="conservationNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
     </section>

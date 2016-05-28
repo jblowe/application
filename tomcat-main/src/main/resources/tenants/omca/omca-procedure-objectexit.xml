@@ -24,7 +24,7 @@
             <field id="exitStatus" autocomplete="vocab-exitstatus" ui-type="enum" section="omca"></field>
             <field id="exitStatusDate" ui-type="date" datatype="date" section="omca"></field>
         </repeat>
-        <field id="sortableExitNumber" section="omca" mini="list" ui-type="computed" ui-args="exitNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableExitNumber" section="omca" mini="list" ui-type="computed" ui-args="exitNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
     </section>

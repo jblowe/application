@@ -13,7 +13,7 @@
             <!-- adding vocab-omcaexhibitiontype vocab -->
         </field>
         <field id="projectNumber" section="omca"></field>
-        <field id="sortableExhibitionNumber" section="omca" mini="list" ui-type="computed" ui-args="exhibitionNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableExhibitionNumber" section="omca" mini="list" ui-type="computed" ui-args="exhibitionNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
         

@@ -8,10 +8,10 @@
             <!-- removing options block; adding vocab-currentLocationFitness vocab -->
             <options action='delete'/>
         </field>
-        <field id="computedMovementSummary" mini="summary" ui-type="computed" ui-args="currentLocation,currentLocationFitness" ui-func="cspace.util.mergeFields" ui-readonly="true" section="omca">
+        <field id="computedMovementSummary" mini="summary" ui-type="computed" ui-args="currentLocation,currentLocationFitness" ui-func="omca.mergeFields" ui-readonly="true" section="omca">
             <!-- combine currentLocation and currentLocationFitness to a single summary field -->
         </field>
-        <field id="sortableMovementReferenceNumber" section="omca" mini="list" ui-type="computed" ui-args="movementReferenceNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableMovementReferenceNumber" section="omca" mini="list" ui-type="computed" ui-args="movementReferenceNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
     </section>

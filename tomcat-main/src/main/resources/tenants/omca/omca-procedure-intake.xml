@@ -20,7 +20,7 @@
         <field id="currentOwner" in-title="no" mini="search,list" ui-search="repeatable" autocomplete="person-person,organization-organization">
             <!-- removing summary value from mini attribute -->
         </field>
-        <field id="sortableEntryNumber" section="omca" mini="list" ui-type="computed" ui-args="entryNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableEntryNumber" section="omca" mini="list" ui-type="computed" ui-args="entryNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
         <repeat id="depositorOMCAGroupList/depositorOMCAGroup" section="omca">

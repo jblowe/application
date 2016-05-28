@@ -16,7 +16,7 @@
                 <!-- changing vocab to vocab-omcaloanoutstatus -->
             </field>
         </repeat>
-        <field id="sortableLoanOutNumber" section="omca" mini="list" ui-type="computed" ui-args="loanOutNumber" ui-func="cspace.util.computeSortableObjectNumber" ui-readonly="true">
+        <field id="sortableLoanOutNumber" section="omca" mini="list" ui-type="computed" ui-args="loanOutNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
         <field id="loanoutExhibitionTitle" section="omca"></field>
