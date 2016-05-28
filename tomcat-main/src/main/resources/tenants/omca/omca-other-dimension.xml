@@ -1,6 +1,9 @@
 <record id="dimension">
     <section id="dimensionInformation">
         <repeat id="measuredPartGroupList/measuredPartGroup">
+            <field id="dimensionSummary" ui-type="computed" ui-func="omca.computeDimensionSummary" ui-args="measuredPart,dimensionSubGroup,measuredPartNote" ui-readonly="true">
+                <!-- Make computed and read-only -->
+            </field>
             <field id="measuredPart" autocomplete="vocab-measuredpart" ui-type="enum" seperate_ui_container="true">
                 <!-- removing options block; adding vocab-measuredpart vocab -->
                 <options action='delete'/>
