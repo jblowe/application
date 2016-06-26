@@ -14,5 +14,6 @@
         <field id="sortableConservationNumber" section="omca" mini="list" ui-type="computed" ui-args="conservationNumber" ui-func="omca.computeSortableObjectNumber" ui-readonly="true">
             <!-- adding computed sortable ID number -->
         </field>
+        <field id="dateOfAnalysis" ui-type="date" datatype="date" section="omca"></field>
     </section>
 </record>
